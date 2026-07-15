@@ -1,4 +1,4 @@
-﻿# LiteLLM Gateway Agent on Databricks Apps + MLflow Agent Server
+# LiteLLM Gateway Agent on Databricks Apps + MLflow Agent Server
 
 This project is ready for the Databricks Apps hosting path. Databricks Apps runs the app process, and MLflow Agent Server supplies the compatible agent server surface for invocations, the chat proxy, validation, and MLflow tracing. The agent calls your LiteLLM Gateway through its OpenAI-compatible `/v1` API.
 
