@@ -1,0 +1,9 @@
+﻿command: ["python", "-m", "app.main"]
+
+env:
+  - name: SHORT_MEMORY_BACKEND
+    value: auto
+  - name: SHORT_MEMORY_LOCAL_PATH
+    value: /tmp/litellm-agent-sessions.json
+  - name: SHORT_MEMORY_MAX_TURNS
+    value: "12"
